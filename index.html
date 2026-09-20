@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>개인정보처리방침 — sendm</title>
+<style>
+  :root { --bg:#fff; --fg:#1a1a1a; --muted:#666; --line:#e5e5e5; --accent:#2563eb; }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) { --bg:#121212; --fg:#e8e8e8; --muted:#a0a0a0; --line:#2e2e2e; --accent:#7aa2f7; }
+  }
+  :root[data-theme="dark"] { --bg:#121212; --fg:#e8e8e8; --muted:#a0a0a0; --line:#2e2e2e; --accent:#7aa2f7; }
+  * { box-sizing: border-box; }
+  body {
+    margin:0; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Pretendard","Apple SD Gothic Neo",system-ui,sans-serif;
+    line-height:1.75; font-size:16px;
+  }
+  main { max-width:720px; margin:0 auto; padding:64px 16px 96px; }
+  h1 { font-size:1.75rem; margin:0 0 8px; letter-spacing:-0.02em; }
+  h2 { font-size:1.125rem; margin:40px 0 12px; letter-spacing:-0.01em; }
+  .meta { color:var(--muted); font-size:0.875rem; margin-bottom:40px; padding-bottom:24px; border-bottom:1px solid var(--line); }
+  p, li { color:var(--fg); }
+  ul { padding-left:1.25em; }
+  li { margin:6px 0; }
+  table { width:100%; border-collapse:collapse; margin:16px 0; font-size:0.9375rem; }
+  th, td { text-align:left; padding:10px 12px; border-bottom:1px solid var(--line); vertical-align:top; }
+  th { color:var(--muted); font-weight:600; white-space:nowrap; }
+  a { color:var(--accent); }
+  footer { margin-top:56px; padding-top:24px; border-top:1px solid var(--line); color:var(--muted); font-size:0.875rem; }
+  code { background:color-mix(in srgb, var(--fg) 8%, transparent); padding:2px 5px; border-radius:4px; font-size:0.875em; }
+</style>
+</head>
+<body>
+<main>
+  <h1>개인정보처리방침</h1>
+  <div class="meta">
+    sendm · 시행일 2026년 9월 20일
+  </div>
+
+  <p>
+    sendm(이하 &ldquo;서비스&rdquo;)은 Instagram 프로페셔널 계정의 댓글에 자동으로 답글을 작성하거나
+    비공개 답장(DM)을 보내는 기능을 제공합니다. 본 방침은 서비스가 어떤 정보를 수집하고,
+    무엇을 위해 사용하며, 얼마나 보관하고, 어떻게 삭제할 수 있는지를 설명합니다.
+  </p>
+
+  <h2>1. 수집하는 정보</h2>
+  <table>
+    <tr><th>구분</th><th>항목</th><th>수집 경로</th></tr>
+    <tr>
+      <td>계정 정보</td>
+      <td>Instagram 계정 ID, 사용자명, 계정 유형</td>
+      <td>Instagram 로그인 시 이용자 동의</td>
+    </tr>
+    <tr>
+      <td>인증 정보</td>
+      <td>Instagram 액세스 토큰</td>
+      <td>Instagram 로그인 시 발급</td>
+    </tr>
+    <tr>
+      <td>콘텐츠 정보</td>
+      <td>게시물 ID, 댓글 ID, 댓글 내용, 작성자 사용자명, 작성 시각</td>
+      <td>Instagram API 및 웹훅</td>
+    </tr>
+    <tr>
+      <td>발송 기록</td>
+      <td>답글·DM 발송 여부, 발송 시각, 처리 결과</td>
+      <td>서비스 이용 과정에서 생성</td>
+    </tr>
+  </table>
+  <p>
+    서비스는 주민등록번호, 결제 카드 정보, 위치 정보를 수집하지 않으며,
+    Instagram 비밀번호를 수집하거나 저장하지 않습니다.
+  </p>
+
+  <h2>2. 이용 목적</h2>
+  <ul>
+    <li>이용자가 설정한 조건에 맞는 댓글을 식별하고 답글 또는 DM을 발송</li>
+    <li>동일한 댓글에 중복 발송되지 않도록 처리 상태를 기록</li>
+    <li>발송 실패 원인 확인 및 재시도</li>
+    <li>이용자에게 발송 내역을 제공</li>
+  </ul>
+  <p>수집한 정보를 광고 또는 마케팅 목적으로 사용하지 않습니다.</p>
+
+  <h2>3. 보관 기간</h2>
+  <ul>
+    <li><strong>계정 및 인증 정보</strong> — 연동이 해제될 때까지. 해제 즉시 액세스 토큰을 파기합니다.</li>
+    <li><strong>댓글 및 발송 기록</strong> — 생성일로부터 최대 90일. 이후 자동 삭제됩니다.</li>
+    <li><strong>법령상 보존 의무가 있는 기록</strong> — 해당 법령이 정한 기간</li>
+  </ul>
+
+  <h2>4. 제3자 제공 및 처리 위탁</h2>
+  <p>수집한 정보를 제3자에게 판매하거나 제공하지 않습니다. 다만 서비스 운영을 위해 아래 사업자의 인프라를 이용합니다.</p>
+  <table>
+    <tr><th>수탁자</th><th>이용 목적</th></tr>
+    <tr><td>Meta Platforms, Inc.</td><td>Instagram API 연동, 댓글 수신 및 메시지 발송</td></tr>
+    <tr><td>Supabase Inc.</td><td>데이터베이스 저장</td></tr>
+    <tr><td>Google Cloud (Google LLC)</td><td>애플리케이션 서버 및 작업 처리</td></tr>
+    <tr><td>Vercel Inc.</td><td>웹 화면 호스팅</td></tr>
+  </table>
+
+  <h2>5. 이용자의 권리</h2>
+  <p>이용자는 언제든지 아래 권리를 행사할 수 있습니다.</p>
+  <ul>
+    <li>수집된 정보의 열람 및 정정 요구</li>
+    <li>연동 해제 및 데이터 삭제 요구</li>
+    <li>개인정보 처리에 대한 동의 철회</li>
+  </ul>
+  <p>
+    연동 해제는 서비스 설정 화면에서 직접 하거나,
+    Instagram의 <a href="https://www.instagram.com/accounts/manage_access/" rel="noopener">앱 및 웹사이트 설정</a>에서
+    sendm의 접근 권한을 삭제하여 즉시 처리할 수 있습니다.
+    연동이 해제되면 해당 계정의 모든 자동 발송이 중단되고, 저장된 토큰은 파기됩니다.
+  </p>
+  <p>
+    데이터 삭제를 요청하시려면 아래 연락처로 연락해 주시기 바랍니다.
+    요청 접수 후 영업일 기준 7일 이내에 처리하고 결과를 회신합니다.
+  </p>
+
+  <h2>6. 정보의 보호</h2>
+  <ul>
+    <li>Instagram 액세스 토큰은 암호화하여 저장하며 서버에서만 접근합니다.</li>
+    <li>모든 통신은 HTTPS로 암호화됩니다.</li>
+    <li>이용자별 데이터는 접근 제어 정책으로 분리됩니다.</li>
+  </ul>
+
+  <h2>7. 방침의 변경</h2>
+  <p>
+    본 방침이 변경되는 경우 변경 내용과 시행일을 이 페이지에 게시합니다.
+    중요한 변경이 있을 때는 시행일 최소 7일 전에 공지합니다.
+  </p>
+
+  <h2>8. 문의처</h2>
+  <p>
+    개인정보 관련 문의 및 삭제 요청: <a href="mailto:jepilyun@gmail.com">jepilyun@gmail.com</a>
+  </p>
+
+  <footer>
+    최종 수정일: 2026년 9월 20일
+  </footer>
+</main>
+</body>
+</html>
